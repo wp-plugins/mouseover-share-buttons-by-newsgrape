@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Mouseover Share-Buttons by Newsgrape
- * Plugin URI: 
+ * Plugin URI: https://wordpress.org/extend/plugins/mouseover-share-buttons-by-newsgrape/
  * Description: Mouseover Share-Buttons integration for Wordpress
- * Version: 0.1
+ * Version: 1.0
  * Author: Newsgrape
  * Author URI: https://www.newsgrape.com
  */
@@ -25,14 +25,13 @@ function ngsb_head() {
   $ngsb_img_path =plugins_url(basename(dirname(__FILE__)) ) . '/img/ngsb_button_row.png';
   $ngsb_css = '
     .lazy-share-widget {
-      font-size:11px;
-      font-style:normal;
-      font-weight:bold;
-      min-width:211px;
-      height:20px;
-      margin-top:12px;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: bold;
+      min-width: 211px;
+      height: 29px;
+      margin: 5px 0;
       background:#fff url('.$ngsb_img_path.') 0 0 no-repeat;
-      float:left;
     }
     .lazy-share-widget .platform {
       height:20px;
@@ -74,7 +73,7 @@ function ngsb_share_buttons_before($title){
 
   if($options['enabled'] && $options['position'] == 'before'){
     $button = ngsb_generate_html($post);
-    return $title . '<br />' . $button . '<br />';
+    return $title . '<br />' . $button;
   }else{
     return $title;
   }

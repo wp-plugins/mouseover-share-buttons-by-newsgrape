@@ -12,6 +12,7 @@ archive pages.
 == Description ==
 
 Mouseover Share-Buttons give you three main benefits:
+
 * Faster loading frontpage
 * Less infos sent to Facebook, etc. (if you care for your users privacy)
 * Looks beautiful
