@@ -19,7 +19,9 @@ Mouseover Share-Buttons give you three main benefits:
 
 Why mouseover and not the 2-click solution? Because it converts more clicks :)
 
-Made with love for [wpbeginners.com](http://wpbeginners.com/) by [Newsgrape.com](https://www.newsgrape.com).
+Made with love for [wpbeginner.com](http://wpbeginner.com/) by [Newsgrape.com](https://www.newsgrape.com).
+
+The plugin is developed on [Github](https://github.com/newsgrape/mouseover-share-buttons).
 
 
 == Roadmap ==
